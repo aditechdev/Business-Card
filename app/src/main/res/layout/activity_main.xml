@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- company wallpaper -->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two_two_zero"
+            android:contentDescription="@string/company_wallpaper"
+            android:scaleType="fitStart"
+            android:src="@drawable/company" />
+
+        <!-- company logo -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/twenty_five"
+            android:layout_marginStart="@dimen/twenty_five"
+            android:contentDescription="@string/logo_description"
+            android:src="@drawable/adify_logo_one" />
+
+        <!-- company quotes -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/twenty_five"
+            android:layout_marginStart="@dimen/twenty_five"
+            android:layout_marginTop="@dimen/ten"
+            android:text="@string/company_heading"
+            android:textColorLink="@color/dark_black"
+            android:textSize="@dimen/twenty_five_sp"
+            android:textStyle="italic" />
+
+        <!-- company information -->
+
+        <TextView
+            style="@style/information_text"
+            android:layout_marginTop="@dimen/twenty_five"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+            android:drawableStart="@drawable/ic_local_phone_black_24dp"
+            android:text="@string/company_phone_number" />
+
+
+        <TextView
+            style="@style/information_text"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:text="@string/company_email_id" />
+
+        <TextView
+            style="@style/information_text"
+            android:drawableLeft="@drawable/ic_access_time_black_24dp"
+            android:drawableStart="@drawable/ic_access_time_black_24dp"
+            android:text="@string/timing" />
+
+        <TextView
+            style="@style/information_text"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:drawableStart="@drawable/ic_location_on_black_24dp"
+            android:text="@string/company_address" />
+
+    </LinearLayout>
+
+</ScrollView>
