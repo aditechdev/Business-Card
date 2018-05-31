@@ -69,11 +69,11 @@
 
         <TextView
             style="@style/information_text"
+            android:layout_marginBottom="@dimen/twenty_five"
+            android:autoLink="map"
             android:drawableLeft="@drawable/ic_location_on_black_24dp"
             android:drawableStart="@drawable/ic_location_on_black_24dp"
-            android:text="@string/company_address"
-            android:layout_marginBottom="@dimen/twenty_five"
-            android:autoLink="map"/>
+            android:text="@string/company_address" />
     </LinearLayout>
 
 </ScrollView>
