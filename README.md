@@ -1,5 +1,8 @@
 # Business-Card
 Version 1.0.0
+
+**#Description about the app:**
+
 It's a business card app of "ADiFY" corporation, which has interactivie feature like clickable number and email which redirect you to phone and mail app after clicking on the number or email.
 
 **#layout screen of app**
