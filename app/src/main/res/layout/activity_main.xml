@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/two_two_zero"
             android:contentDescription="@string/company_wallpaper"
-            android:scaleType="fitStart"
+            android:scaleType="fitXY"
             android:src="@drawable/company" />
 
         <!-- company logo -->
@@ -47,7 +47,7 @@
 
         <TextView
             style="@style/information_text"
-            android:layout_marginTop="@dimen/twenty_five"
+            android:layout_marginTop="@dimen/information_top_margin"
             android:autoLink="phone"
             android:drawableLeft="@drawable/ic_local_phone_black_24dp"
             android:drawableStart="@drawable/ic_local_phone_black_24dp"
@@ -69,11 +69,11 @@
 
         <TextView
             style="@style/information_text"
-            android:autoLink="map"
             android:drawableLeft="@drawable/ic_location_on_black_24dp"
             android:drawableStart="@drawable/ic_location_on_black_24dp"
-            android:text="@string/company_address" />
-
+            android:text="@string/company_address"
+            android:layout_marginBottom="@dimen/twenty_five"
+            android:autoLink="map"/>
     </LinearLayout>
 
 </ScrollView>

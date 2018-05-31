@@ -12,7 +12,7 @@
         <!-- Customize your theme here. -->
         <item name="android:layout_marginLeft">@dimen/twenty_five</item>
         <item name="android:layout_marginTop">@dimen/ten</item>
-        <item name="android:textSize">@dimen/twenty_sp</item>
+        <item name="android:textSize">@dimen/eighteen_sp</item>
         <item name="android:drawablePadding">@dimen/ten</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
